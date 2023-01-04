@@ -18,6 +18,15 @@ font-size: 25px;
   color:green;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
+ .bottle{
+  margin-bottom: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+ }
+ #bottle{
+  color:red;
+  font-size: 20px;
+ }
   </style>
   <title>Form</title>
 </head>
@@ -56,7 +65,18 @@ font-size: 25px;
         <option value="3ml">50ml</option>
       </select>
     </label>
-    
+    <label for="Bottle">
+      <legend class="bottle">Select Attar Bottle Design Type</legend>
+      <select name="bottle" id="bottle">
+        <option value="BOTTLE">Normal</option>
+        <option value="BOTTLE">Black Design</option>
+        <option value="BOTTLE">Stripe Design</option>
+        <option value="BOTTLE">Cover Design</option>
+        <option value="BOTTLE">Simple Design</option>
+
+      </select>
+    </label>
+    <button>Order Now</button>
   </fieldset>
 
     
