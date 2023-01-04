@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <style>
+ label{
+  display: block;
+  margin-bottom: 10px;
+ }
+ .quantity{
+  margin-bottom: 8px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+ }
+ #quantity{
+  color:green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+  </style>
+  <title>Form</title>
+</head>
+<body>
+  <H2>Selection Form</H2>
+  <form action="">
+    <label for="name"> Your Name
+      <input id="name" type="text" placeholder="Type Your Name">
+    </label>
+    
+    <label for="email
+    "> Your Email
+    <input id="email" type="email" placeholder="e-mail">
+  </label>
+  <fieldset>
+    <legend>Pick One Attar</legend>
+    <label for=" Amber">
+      <input type="radio" name="Attar" id="Amber">Amber
+    </label>
+    <label for=" Bakhour">
+      <input type="radio" name="Attar" id="Bakhour">Bakhour
+    </label>
+    <label for="Arabian Oud">
+      <input type="radio" name="Attar" id="Arabian-Oud">Arabian Oud
+    </label>
+    <label for="Hajre Aswad">
+      <input type="radio" name="Attar" id="Hajre-Aswad">Hajre Aswad
+    </label>
+    <label for="Quantity">
+      <legend class="quantity"> Select your Quantity</legend>
+      <select name="quantity" id="quantity">
+        <option value="3ml">3ml</option>
+        <option value="3ml">6ml</option>
+        <option value="3ml">12ml</option>
+        <option value="3ml">25ml</option>
+        <option value="3ml">50ml</option>
+      </select>
+    </label>
+    
+  </fieldset>
+
+    
+
+  </form>
+
+</body>
+</html>
